@@ -38,7 +38,7 @@ img {
 
 .flex {
   display: flex;
-  margin: 150px 0;
+  margin: 100px 0;
 }
 
 .flex > div:first-child {
@@ -59,6 +59,10 @@ button {
   border-radius: 50px;
   font-size: 24px;
   padding: 20px 80px;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 .social-links {
